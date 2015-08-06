@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zbc.soft"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.CAMERA" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.zbc.soft.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.zbc.soft.MyListActivity"
+            android:label="@string/title_activity_my_list" >
+        </activity>
+        <activity
+            android:name="com.zbc.soft.HttpURLConnectActivity"
+            android:label="@string/title_activity_http_urlconnect" >
+        </activity>
+        <activity
+            android:name="com.zbc.soft.HttpClientActivity"
+            android:label="@string/title_activity_http_client" >
+        </activity>
+        <activity
+            android:name="com.zbc.soft.MyMessageActivity"
+            android:label="@string/title_activity_my_message" >
+        </activity>
+        <activity
+            android:name="com.zbc.soft.MyServiceActivity"
+            android:label="@string/title_activity_my_service" >
+        </activity>
+
+        <service android:name="com.zbc.soft.TestService" >
+        </service>
+
+        <activity
+            android:name="com.zbc.soft.MytestActivity"
+            android:label="@string/title_activity_mytest" >
+        </activity>
+        <activity
+            android:name="com.zbc.soft.LoginActivity"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zbc.soft.MainAppActivity"
+            android:label="@string/title_activity_main_app" >
+        </activity>
+        <activity
+            android:name="com.zbc.soft.ResetActivity"
+            android:label="@string/title_activity_reset" >
+        </activity>
+        <activity
+            android:name="com.zbc.soft.MyPayActivity"
+            android:label="@string/title_activity_my_pay" >
+        </activity>
+        <activity
+            android:name="com.zbc.soft.MyPayListActivity"
+            android:label="@string/title_activity_my_pay_list" >
+        </activity>
+        <activity
+            android:name="com.zbc.soft.IncomeActivity"
+            android:label="@string/title_activity_income" >
+        </activity>
+        <activity
+            android:name="com.zbc.soft.PayIncomeActivity"
+            android:label="@string/title_activity_pay_income" >
+        </activity>
+    </application>
+
+</manifest>

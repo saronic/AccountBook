@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">androidFrame</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_my_list">MyListActivity</string>
+    <string name="title_activity_http_urlconnect">HttpURLConnectActivity</string>
+    <string name="title_activity_http_client">HttpClientActivity</string>
+    <string name="title_activity_my_message">MyMessageActivity</string>
+    <string name="title_activity_my_service">MyServiceActivity</string>
+    <string name="title_activity_mytest">MytestActivity</string>
+    <string name="title_activity_login">个人账务管理</string>
+    <string name="title_activity_main_app">账务管理主界面</string>
+    <string name="title_activity_reset">密码重置</string>
+    <string name="title_activity_my_pay">开支录入</string>
+    <string name="title_activity_my_pay_list">收/支列表</string>
+    <string name="title_activity_income">收入录入</string>
+    <string name="title_activity_pay_income">盈亏汇总</string>
+
+</resources>

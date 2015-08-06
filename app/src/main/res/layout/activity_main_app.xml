@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainAppActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+ 		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dip" >
+
+            <Button
+                android:id="@+id/pay"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="开支" />
+
+            <Button
+                android:id="@+id/payLst"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="开支查询" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dip" >
+
+            <Button
+                android:id="@+id/income"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="收入" />
+
+            <Button
+                android:id="@+id/incomeLst"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="收入列表" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dip" >
+
+            <Button
+                android:id="@+id/income_pay"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="盈亏情况" />
+
+            <Button
+                android:id="@+id/pwd_change"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="密码修改" />
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
